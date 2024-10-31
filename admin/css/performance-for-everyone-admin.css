@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wppfe_performance .wrap {
+    margin: 20px;
+}
+
+#inline-css-files{
+    position:relative;
+    height:300px;
+    overflow: scroll;
+
+}
+.wppfe-page-caching th{
+    display: none;
+}
+
+.wppfe-page-caching td{
+    padding:0;
+}
+
+.wppfep-group-toggle:hover{
+    cursor: pointer;
+}
+#cached-pages-list,
+#cached-posts-list,
+#cached-products-list{
+    height:230px;
+    overflow: scroll;
+    border:1px solid grey;
+}
+
+.wppfe_performance p{
+    font-size:16px;
+}
+
+#backup-list .list-group .list-group-item{
+    word-wrap: break-word;
+}
+
+.wppfe_performance h2{
+    font-size: 21px;
+}
+
+.wppfe_performance h1, h2, h3 {
+    color: #0073aa;
+}
+
+.wppfe_performance #performance-results {
+    margin-top: 20px;
+}
+
+.wppfe_performance button#measure-performance {
+    margin-top: 10px;
+}
+
+.wppfe_performance .card {
+    margin-bottom: 20px;
+}
+
+.wppfe_performance .card-header {
+    background-color: #f0f6fc;
+}
+
+.wppfe_performance .card-body {
+    background-color: #fff;
+}
+
+.wppfe_performance .table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.wppfe_performance .table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.wppfe_performance .table tbody td {
+    border-top: 1px solid #dee2e6;
+}
